@@ -30,19 +30,37 @@ button {
 /* Add your CSS styles below this line. Feel free to replace the comments with your code. Make sure not to put your code into the comments, because then nothing will happen. */
 
 .button1 {
-  /*Style me! Change my border, set a border radius or what you want to try out. :) */
+  /*Style me! Change my border, set a border radius or what you want to try out. :)*/
+  border-style: dot-dash;
+  border-width: 4px;
+  border-color: lightcoral;
+  background-color: transparent;
+
+
+  /* border: 5px dashed rgba(32,55,66, .3); */
+}
+
+.button1:hover {
+  border-color: chartreuse;
+  border-style: dotted;
+  background-color: beige;
 }
 
 .button2 {
   /*Style me! Change my color, or my background-color. Or both! You can test out different color modes here - like HEX, RGB, ... */
+  background-color: #969696;
+  color: #f1f1f1;
 }
 
 .button3 {
   /*Style me! You can test out changing the font, or font size, ...*/
+  font-size: 1.2rem;
+  font-family: Verdana;
 }
 
 .button4 {
   /*Style me! Can you add a shadow to this button? Maybe play around with the shadow properties, as well? You can even color the shadow, make it bigger or smaller, ... */
+  box-shadow: 5px 2px 5px #323232;
 }
 
 /* Feel free to play around with other properties, as well. */
